@@ -1,10 +1,10 @@
 import Project from "./Project"
+import projects from "../data/projects"
 
 const ProjectList = () => {
-    const projects = [];
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className="projectlist">
+            <h2 className="sectionheading">Projects</h2>
             {projects.map(project =>
                 <Project key={project.description} info={project}/>
             )}

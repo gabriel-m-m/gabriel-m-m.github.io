@@ -1,10 +1,10 @@
 import Experience from "./Experience"
+import experiences from "../data/experience"
 
 const ExperienceList = () => {
-    const experiences = [];
     return (
-        <div>
-            <h2>Experience</h2>
+        <div className="experiencelist">
+            <h2 className="sectionheading">Experience</h2>
             {experiences.map(experience => 
                 <Experience key={experience.startDate} info={experience} />
             )}
