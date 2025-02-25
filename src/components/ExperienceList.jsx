@@ -3,9 +3,9 @@ import experiences from "../data/experience"
 
 const ExperienceList = () => {
     return (
-        <div className="experiencesection">
+        <div className="exp-section">
             <h2 className="sectionheading">Experience</h2>
-            <div className="experiencelist">
+            <div className="exp-list">
                 {experiences.map(experience => 
                     <Experience key={experience.startDate} info={experience} />
                 )}

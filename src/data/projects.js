@@ -16,7 +16,7 @@ const projects = [
         "thumbnail": "src\\assets\\DataVisTool.png",
         "title": "Data Visualization Tool",
         "description": "Developed a program in Python that converts scientific publication data into a graphic based on shared authorship. Employed the Pandas library for data manipulation and the NetworkX and Bokeh libraries to visualize data",
-        "technologies": ["Python", "numpy", "pandas"],
+        "technologies": ["Python", "numpy", "pandas", "NetworkX"],
         "github": "https://github.com/gabriel-m-m/Data-Visualization-Tool"
     }
 ]

@@ -3,9 +3,9 @@ import projects from "../data/projects"
 
 const ProjectList = () => {
     return (
-        <div className="projectsection">
+        <div className="proj-section">
             <h2 className="sectionheading">Projects</h2>
-            <div className="projectlist">
+            <div className="proj-list">
                 {projects.map(project =>
                     <Project key={project.description} info={project}/>
                 )}
