@@ -1,38 +1,147 @@
 body {
   margin: 0;
+  --base: #B3D8A8;
+  background-color: #FBFFE4;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+.header {
+  height: 4em;
+  background-color: var(--base);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header img {
+  height: 28px;
+  width: auto;
+}
+
+.projectsection, .experiencesection, .educationsection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8em;
 }
 
 .sectionheading {
-  margin-left: 24px;
+  text-align: center;
+  font-size: 2em;
+  margin: 2em 0.5em 2em 0.5em;
+  
 }
 
-.experiencelist img {
-  height: auto;
-  width: 80px;
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--base);
+  padding: 40px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: small;
+}
+
+.technology {
+  display: flex;
+  flex-wrap: 1;
+  background-color: var(--base);
+  border-radius: 4px;
+  padding: 2px 6px 2px 6px;
+}
+
+.logocontainer {
   margin-top: 30px;
-  margin-right: 20px;
+  margin-right: 30px;
+  min-width: 60px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  --shadow: 4px 4px #000000;
+  box-shadow: var(--shadow);
+  flex-shrink: 1;
+}
+
+.logo {
+  height: auto;
+  max-width: 80px;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.thumbnailcontainer {
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 12px;
+  max-height: 300px;
+  height: auto;
+}
+
+.thumbnail {
+  display: flex;
+  max-height: inherit;
+  width: auto;
+  max-width: 100%;
+  flex-shrink: 1;
+  object-fit: contain;
+  flex-wrap: wrap;
 }
 
 .experience {
-  max-width: 60%;
+  max-width: 70%;
   display: flex;
   align-items: flex-start;
   margin-left: 40px;
 }
 
+.experiencelist {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.experiencelist :not(:last-child):is(.experience) {
+  border-bottom: 1px solid black;
+}
+
+.projectlist {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .project {
-  max-width: 90%;
+  max-width: min(500px, 60%);
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding: 5px;
-  border-radius: 6px;
-  margin-bottom: 12px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  --shadow: 4px 4px #000000;
+  box-shadow: var(--shadow);
 }
 
-.header {
-  height: 4em;
-  background-color: #acdeba;
+.projecttitle {
   margin: 0;
 }
 

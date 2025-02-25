@@ -2,7 +2,8 @@ const experiences = [
     {
         "company": "Optum",
         "logo": "src\\assets\\Optum_Logo.svg",
-        "title": "Hybrid Software Development and QC Engineer",
+        "logobg": "white",
+        "title": "Software Development & QC Engineer",
         "startDate": "September 2024",
         "endDate": "present",
         "responsibilities": [
@@ -14,6 +15,7 @@ const experiences = [
     {
         "company": "Famous Foods",
         "logo": "src\\assets\\FamousFoods_Logo.avif",
+        "logobg": "white",
         "title": "Store Clerk",
         "startDate": "June 2019",
         "endDate": "April 2020",

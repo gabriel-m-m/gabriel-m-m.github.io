@@ -1,7 +1,7 @@
 const Experience = ({ info }) => {
     return (
         <div className="experience">
-            {info.logo ? <img src={info.logo}/> : null}
+            <div className="logocontainer" style={{backgroundColor: info.logobg}}>{info.logo ? <img className="logo" src={info.logo}/> : null}</div>
             <div>
                 <h3>{info.title}, {info.company}</h3>
                 <p>{info.startDate} - {info.endDate}</p>
