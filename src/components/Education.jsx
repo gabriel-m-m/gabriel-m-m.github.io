@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-        <div>
+        <div className="educationsection">
             <h2 className="sectionheading">Education</h2>
             <div className="education">
                 <h3>Bachelor of Science, Computer Science</h3>
