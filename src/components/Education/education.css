@@ -1,8 +1,13 @@
 .edu {
-  margin: 40px;
+  margin: 2rem min(2rem, 4%);
   display: flex;
-  gap: 40px;
-  max-width: 80%;
+  gap: 2.5rem;
+  width: min(90%, 50rem);
+  align-items: flex-start;
+}
+
+.edu-text p {
+  margin: 0;
 }
 
 .edu-text {
@@ -12,14 +17,12 @@
 
 .UBCcontainer {
   display: flex;
-  flex-shrink: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
-  min-width: min(20%, 80px);
-  min-height: min(20%, 80px);
+  flex-shrink: 0;
+  width: 4em;
+  height: auto;
   background-color: white;
   border: 1px solid black;
   border-radius: 12px;

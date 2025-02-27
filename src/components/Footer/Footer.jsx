@@ -2,7 +2,7 @@ import "./footer.css"
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <footer>
             <div className="footerline"></div>
                 <a href="mailto:gabrielmm.00@gmail.com">
                     <svg className="w-4 h-4 mt-0.5 opacity-40 group-hover:opacity-70" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" height="32" width="32"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
@@ -14,7 +14,7 @@ const Footer = () => {
                 <   svg className="inline-block w-4 h-3 mr-3 -mt-1 opacity-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg>
                 </a>
             <div className="footerline"></div>
-        </div>
+        </footer>
     )
 }
 

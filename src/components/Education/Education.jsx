@@ -13,7 +13,8 @@ const Education = () => {
                
                 <div className="edu-text">
                     <h3>Bachelor of Science, Computer Science</h3>
-                    <h4>University of British Columbia, GPA: 4.33/4.33</h4>
+                    <h4>University of British Columbia</h4>
+                    <p>GPA: 4.33/4.33</p>
                     <p>2021 - present</p>
                     <p>Coursework: Software Engineering, Data Structures & Algorithms, Relational Databases, Machine Learnin, Operating Systems, Computer Hardware, Algorithm Design & Analysis </p>
                 </div>
