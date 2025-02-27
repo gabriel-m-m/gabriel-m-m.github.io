@@ -1,5 +1,6 @@
 import Experience from "./Experience"
-import experiences from "../data/experience"
+import experiences from "../../data/experience"
+import "./experiencelist.css"
 
 const ExperienceList = () => {
     return (

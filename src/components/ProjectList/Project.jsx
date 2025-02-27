@@ -1,3 +1,5 @@
+import "./project.css"
+
 const Project = ({ info }) => {
     return (
         <div className="proj">

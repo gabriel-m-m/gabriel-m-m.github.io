@@ -1,4 +1,5 @@
 import Skills from "./Skills"
+import "./intro.css"
 
 const Intro = () => {
     return (

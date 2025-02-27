@@ -1,3 +1,5 @@
+import "./experience.css"
+
 const Experience = ({ info }) => {
     return (
         <div className="exp">

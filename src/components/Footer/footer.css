@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 36px;
+  color: black;
+}
+
+.footer svg {
+  height: 20px;
+  width: 20px;
+  color: black;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.footer svg:hover {
+  background-color: black;
+  color: #fbffe4;
+}
+
+.footerline {
+  height: 1px;
+  width: 400px;
+  margin: 0px 24px;
+  background-color: black;
+}

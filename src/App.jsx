@@ -1,9 +1,9 @@
-import Header from "./components/Header"
-import Intro from "./components/Intro"
-import ProjectList from "./components/ProjectList"
-import ExperienceList from "./components/ExperienceList"
-import Education from "./components/Education"
-import Footer from "./components/Footer"
+import Header from "./components/Header/Header"
+import Intro from "./components/Intro/Intro"
+import ProjectList from "./components/ProjectList/ProjectList"
+import ExperienceList from "./components/ExperienceList/ExperienceList"
+import Education from "./components/Education/Education"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (

@@ -1,0 +1,9 @@
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: min(5%, 3rem);
+}
+
+.exp-list :not(:last-child):is(.exp) {
+  border-bottom: 1px solid lightgrey;
+}
