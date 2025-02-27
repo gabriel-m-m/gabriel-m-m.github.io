@@ -1,5 +1,5 @@
 .proj {
-  max-width: min(500px, 60%);
+  width: min(26rem, 75%);
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -31,37 +31,24 @@
 
 .proj svg {
   margin: 0;
-  height: 24px;
-  width: 24px;
+  height: 1.5rem;
+  width: 1.5rem;
   color: black;
 }
 
 .proj h3 {
-  margin: 4px 0px;
-}
-
-.thumbnailcontainer {
-  display: flex;
-  align-items: center;
-  flex-shrink: 1;
-  justify-content: center;
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 6px;
-  border: 1px solid black;
-  border-radius: 12px;
-  max-height: 300px;
-  height: auto;
+  margin: 0.25rem 0rem;
 }
 
 .thumbnail {
   display: flex;
-  max-height: inherit;
-  width: auto;
-  max-width: 100%;
+  height: auto;
+  width: 100%;
   flex-shrink: 1;
-  object-fit: contain;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: white;
 }
 
 .technologies {
