@@ -7,6 +7,7 @@ const projects = [
         "github": "https://github.com/gabriel-m-m/TripSafe"
     },
     {
+        "thumbnail": "src\\assets\\Ledger.png",
         "title": "Ledger",
         "description": "Developed a Java application that tracks and records transactions between an arbitrary number of users. Implemented a user-friendly GUI using the Swing library. Utilized automated JUnit testing to ensure proper function of program and quality code",
         "technologies": ["Java", "SwingUI", "JUnit"],
