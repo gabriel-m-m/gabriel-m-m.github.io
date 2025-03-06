@@ -1,9 +1,19 @@
 .edu {
   margin: 2rem min(2rem, 4%);
   display: flex;
-  gap: 2.5rem;
+  gap: 1.75rem;
   width: min(90%, 50rem);
   align-items: flex-start;
+}
+
+.edu i {
+  font-size: 85%;
+}
+
+.edu .courses {
+  margin: 1em 0 0.5em 0;
+  font-size: 80%;
+  color: var(--text-alt);
 }
 
 .edu-text p {

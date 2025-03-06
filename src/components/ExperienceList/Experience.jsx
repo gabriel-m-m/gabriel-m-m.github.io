@@ -4,11 +4,11 @@ const Experience = ({ info }) => {
     return (
         <div className="exp">
             <div className="exp-header">
-                <div className="logocontainer" style={{backgroundColor: info.logobg}}>{info.logo ? <img className="logo" src={info.logo}/> : null}</div>
+                <div className="logocontainer" style={{backgroundColor: info.logobg ?? "transparent"}}>{info.logo ? <img className="logo" src={info.logo}/> : null}</div>
                 <div>
                     <h3>{info.title}</h3>
                     <h4>{info.company}</h4>
-                    <p>{info.startDate} – {info.endDate}</p>
+                    <i>{info.startDate} – {info.endDate}</i>
                 </div>
             </div>
             <div>

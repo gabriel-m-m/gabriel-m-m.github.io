@@ -11,25 +11,36 @@
 .exp ul {
   padding-left: 1rem;
   margin-top: 1.5rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   flex-wrap: wrap;
+  color: var(--text-alt);
+  line-height: 1.5rem;
+}
+
+.exp li::marker {
+  font-size: 90%;
+}
+
+.exp i {
+  font-size: 85%;
 }
 
 .exp-header {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.exp-header p, h3, h4{
+.exp li:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+.exp-header p, h3, h4 {
   margin: 0;
 }
 
-.exp-header h3 {
-  margin: 22px 0 10px;
-}
-
 .logocontainer {
-  margin-top: 2rem;
   margin-right: 2rem;
   width: 3rem;
   height: auto;

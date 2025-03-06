@@ -15,8 +15,9 @@ const Education = () => {
                     <h3>Bachelor of Science, Computer Science</h3>
                     <h4>University of British Columbia</h4>
                     <p>GPA: 4.33/4.33</p>
-                    <p>2021 - present</p>
-                    <p>Coursework: Software Engineering, Data Structures & Algorithms, Relational Databases, Machine Learning, Operating Systems, Computer Hardware, Algorithm Design & Analysis</p>
+                    <i>2021 - present (4th year)</i>
+                    <i className="courses">Coursework: </i>
+                    <p>Software Engineering, Data Structures & Algorithms, Relational Databases, Machine Learning, Operating Systems, Computer Hardware, Algorithm Design & Analysis</p>
                 </div>
             </div>
         </div>
