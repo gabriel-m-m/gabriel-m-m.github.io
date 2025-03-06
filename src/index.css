@@ -3,9 +3,11 @@ body {
   --base: #d0f0c0;
   --prog-bg: #e2e8f0;
   --text: black;
-  --text-alt: grey;
+  --text-alt: rgb(89, 89, 89);
   background-color: #FBFFE4;
-  font-family: sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .proj-section, .exp-section, .edu-section {
