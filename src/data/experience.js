@@ -3,7 +3,7 @@ const experiences = [
         "company": "Optum",
         "logo": "src\\assets\\Optum_Logo.png",
         "title": "Software Development & QC Engineer",
-        "startDate": "September 2024",
+        "startDate": "Sep 2024",
         "endDate": "present",
         "responsibilities": [
             "Prototyping and developing an internal web application using Angular and TypeScript, with robust API endpoints harnessing C#, ASP.NET Core, and SQL",
@@ -15,8 +15,8 @@ const experiences = [
         "company": "Famous Foods",
         "logo": "src\\assets\\FamousFoods_Logo.png",
         "title": "Store Clerk",
-        "startDate": "June 2019",
-        "endDate": "April 2020",
+        "startDate": "Jun 2019",
+        "endDate": "Apr 2020",
         "responsibilities": [
             "Collaborated with colleagues and other departments to ensure effective store operation",
             "Provided customer support including helping customers locate products, providing product knowledge, and answering questions",
