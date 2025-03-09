@@ -11,13 +11,17 @@ footer svg {
   height: 1.25rem;
   width: 1.25rem;
   color: black;
-  padding: 0.25rem;
+  padding: 0.3rem;
   border-radius: 4px;
+  border: 1px solid black;
+  --shadow: 2px 2px #000000;
+  box-shadow: var(--shadow);
+  transition: all 0.2s; 
 }
 
 footer svg:hover {
-  background-color: black;
-  color: #fbffe4;
+  box-shadow: 6px 6px #000000;
+  transform: translate(-2px, -2px);
 }
 
 .footerline {
