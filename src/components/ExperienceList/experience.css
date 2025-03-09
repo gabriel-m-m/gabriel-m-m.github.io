@@ -42,18 +42,18 @@
 
 .logocontainer {
   margin-right: 2rem;
-  width: 3rem;
+  width: 4.5rem;
   height: auto;
   display: flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  padding: 12px;
   border: 1px solid black;
   border-radius: 8px;
   --shadow: 4px 4px #000000;
   box-shadow: var(--shadow);
   aspect-ratio: 1 / 1;
+  overflow: hidden
 }
 
 .logo {
