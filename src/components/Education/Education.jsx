@@ -2,13 +2,13 @@ import "./education.css"
 
 const Education = () => {
     return (
-        <div className="edu-section">
+        <section className="edu-section">
             <h2 className="sectionheading">Education</h2>
             <div className="edu">
                 {/* <div className="UBCsidebar">
                     <div className="UBCline"></div> */}
                     <div className="UBCcontainer">
-                        <img height="2400" width="2400" className="UBClogo" src="src\\assets\\UBC_Logo.png" />
+                        <img height="2400" width="2400" className="UBClogo" src="images/UBC_Logo.png" />
                     </div>
                
                 <div className="edu-text">
@@ -20,7 +20,7 @@ const Education = () => {
                     <p>Software Engineering, Data Structures & Algorithms, Relational Databases, Machine Learning, Operating Systems, Computer Hardware, Algorithm Design & Analysis</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
