@@ -1,0 +1,30 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0 2rem;
+}
+
+.skills .technologies {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.skills .technology {
+    border-radius: 4px;
+    padding: 2px 6px;
+    border: 1px solid var(--border);
+    box-shadow: 1px 1px var(--shadow);
+    font-size: 0.9em;
+}
+
+.skills span {
+    font-size: 0.7em;
+    color: var(--text-alt);
+    align-self: center;
+    margin-top: 1rem;
+    text-align : center;
+}
+
