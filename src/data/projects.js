@@ -1,6 +1,6 @@
 const projects = [
     {
-        "thumbnail": "src\\assets\\TripSafe.png",
+        "thumbnail": "images/TripSafe.png",
         "title": "TripSafe",
         "thHeight": 1623,
         "thWidth": 2055,
@@ -9,7 +9,7 @@ const projects = [
         "github": "https://github.com/gabriel-m-m/TripSafe"
     },
     {
-        "thumbnail": "src\\assets\\Ledger.png",
+        "thumbnail": "images/Ledger.png",
         "thHeight": 798,
         "thWidth": 1016,
         "title": "Ledger",
@@ -18,7 +18,7 @@ const projects = [
         "github": "https://github.com/gabriel-m-m/Ledger-Project"
     },
     {
-        "thumbnail": "src\\assets\\DataVisTool.png",
+        "thumbnail": "images/DataVisTool.png",
         "title": "Data Visualization Tool",
         "thHeight": 1063,
         "thWidth": 1425,

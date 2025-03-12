@@ -1,7 +1,7 @@
 const experiences = [
     {
         "company": "Optum",
-        "logo": "src\\assets\\Optum_Logo.png",
+        "logo": "images/Optum_Logo.png",
         "title": "Software Development & QC Engineer",
         "startDate": "Sep 2024",
         "endDate": "present",
@@ -13,7 +13,7 @@ const experiences = [
     },
     {
         "company": "Famous Foods",
-        "logo": "src\\assets\\FamousFoods_Logo.png",
+        "logo": "images/FamousFoods_Logo.png",
         "title": "Store Clerk",
         "startDate": "Jun 2019",
         "endDate": "Apr 2020",
