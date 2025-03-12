@@ -4,6 +4,6 @@
   margin-left: min(5%, 3rem);
 }
 
-.exp-list :not(:last-child):is(.exp) {
+.exp-list > :not(:last-child) {
   border-bottom: 1px solid lightgrey;
 }

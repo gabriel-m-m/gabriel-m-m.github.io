@@ -28,20 +28,19 @@ footer svg {
   color: black;
   padding: 0.3rem;
   border-radius: 4px;
-  border: 1px solid black;
-  --shadow: 2px 2px #000000;
-  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  box-shadow: 2px 2px var(--shadow);
   transition: all 0.2s; 
 }
 
 footer svg:hover {
-  box-shadow: 6px 6px #000000;
+  box-shadow: 6px 6px var(--shadow);
   transform: translate(-2px, -2px);
 }
 
 .footer-line {
   height: 1px;
-  width: 28rem;
+  width: 32rem;
   margin: 0 1rem;
-  background-color: black;
+  background-color: var(--border);
 }

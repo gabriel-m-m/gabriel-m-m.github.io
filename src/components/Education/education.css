@@ -6,13 +6,13 @@
   align-items: flex-start;
 }
 
-.edu i {
+.edu-text i {
   font-size: 85%;
 }
 
 .edu .courses {
   margin: 1em 0 0.5em 0;
-  font-size: 80%;
+  font-size: 0.8em;
   color: var(--text-alt);
 }
 
@@ -23,6 +23,7 @@
 .edu-text {
   display: flex;
   flex-direction: column;
+  gap: 0.1rem;
 }
 
 .UBCcontainer {
@@ -34,10 +35,9 @@
   width: 4em;
   height: auto;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid var(--border);
   border-radius: 12px;
-  --shadow: 4px 4px #000000;
-  box-shadow: var(--shadow);
+  box-shadow: 4px 4px var(--shadow);
 }
 
 .UBClogo {

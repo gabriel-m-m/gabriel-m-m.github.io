@@ -18,11 +18,11 @@
 }
 
 .exp li::marker {
-  font-size: 90%;
+  font-size: 0.9em;
 }
 
 .exp i {
-  font-size: 85%;
+  font-size: 0.85em;
 }
 
 .exp-header {
@@ -48,10 +48,9 @@
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid var(--border);
   border-radius: 8px;
-  --shadow: 4px 4px #000000;
-  box-shadow: var(--shadow);
+  box-shadow: 4px 4px var(--shadow);
   aspect-ratio: 1 / 1;
   overflow: hidden
 }
