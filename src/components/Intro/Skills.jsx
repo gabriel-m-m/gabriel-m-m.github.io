@@ -1,7 +1,7 @@
 import "./skills.css"
 
 const Skills = () => {
-    const technologies = ["TypeScript", "JavaScript", "HTML", "CSS", "Git", "React","C#", "Python","C/C++", "SQL", "Java"];
+    const technologies = ["TypeScript", "JavaScript", "HTML", "CSS", "React","Git", "C#", "Python","C/C++", "SQL", "Java"];
 
     return (
         <div className="skills">

@@ -3,22 +3,18 @@
   flex-direction: column;
   flex-shrink: 1;
   align-items: flex-start;
-  width: min(97%, 64rem);
+  width: min(97%, 60rem);
   padding-bottom: 1.5rem;
   margin-top: 0.75rem;
 }
 
 .exp ul {
-  padding-left: 1rem;
-  margin-top: 1.5rem;
-  margin-left: 1rem;
+  padding-left: 2rem;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
   color: var(--text-alt);
   line-height: 1.5rem;
-}
-
-.exp li::marker {
-  font-size: 0.9em;
+  font-size: 0.9em
 }
 
 .exp i {
@@ -33,30 +29,21 @@
 }
 
 .exp li:not(:last-child) {
-  margin-bottom: 0.25rem;
-}
-
-.exp-header p, h3, h4 {
-  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 .logocontainer {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   width: 4.5rem;
-  height: auto;
-  display: flex;
+  height: 4.5rem;
   flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: 4px 4px var(--shadow);
-  aspect-ratio: 1 / 1;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .logo {
-  display: flex;
   height: auto;
   width: 100%;
 }

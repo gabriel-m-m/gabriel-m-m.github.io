@@ -1,13 +1,14 @@
 .edu {
-  margin: 2rem min(2rem, 4%);
+  margin: 2rem 0rem;
   display: flex;
-  gap: 1.75rem;
-  width: min(90%, 50rem);
+  gap: 1.5rem;
+  width: min(93%, 60rem);
   align-items: flex-start;
+  align-self: center;
 }
 
 .edu-text i {
-  font-size: 85%;
+  font-size: 0.85em;
 }
 
 .edu .courses {
@@ -17,7 +18,7 @@
 }
 
 .edu-text p {
-  margin: 0;
+  max-width: 44rem;
 }
 
 .edu-text {
@@ -27,13 +28,9 @@
 }
 
 .UBCcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
   width: 4em;
-  height: auto;
+  height: 4em;
   background-color: white;
   border: 1px solid var(--border);
   border-radius: 12px;

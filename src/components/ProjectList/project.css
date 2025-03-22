@@ -1,8 +1,8 @@
 .proj {
-  width: min(30rem, 80%);
+  width: min(28rem, 100%);
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: auto; 
   padding: 20px;
   background-color: var(--prog-bg);
   border: 1px solid var(--border);
@@ -12,7 +12,7 @@
 
 .proj a {
   padding: 0.5rem 0.75rem;
-  color: black;
+  color: var(--text);
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -22,7 +22,6 @@
   border-radius: 24px;
   box-shadow: 2px 2px var(--shadow);
   transition: all 0.2s;
-  height: 100%;
   font-size: 0.9em;
 }
 
@@ -32,14 +31,8 @@
 }
 
 .proj svg {
-  margin: 0;
   height: 1.25rem;
   width: 1.25rem;
-  color: var(--text);
-}
-
-.proj h3 {
-  margin: 0;
 }
 
 .proj p {
@@ -63,17 +56,14 @@
   flex-wrap: wrap;
   gap: 8px;
   font-size: 0.8em;
-  margin-right: 1.25rem;
+  margin-right: 1rem;
   margin-top: 0.75rem;
 }
 
 .proj .technology {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: var(--base);
+  background-color: var(--proj-tech);
   border-radius: 4px;
   padding: 2px 6px;
-  /* border: 1px solid #a4c404; */
   border: 1px solid var(--border);
   box-shadow: 1px 1px var(--shadow);
 }

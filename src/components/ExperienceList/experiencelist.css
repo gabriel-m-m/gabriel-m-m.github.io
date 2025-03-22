@@ -1,7 +1,8 @@
 .exp-list {
   display: flex;
   flex-direction: column;
-  margin-left: min(5%, 3rem);
+  align-items: center;
+  margin: 0 1rem;
 }
 
 .exp-list > :not(:last-child) {
