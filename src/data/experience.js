@@ -6,7 +6,7 @@ const experiences = [
         "startDate": "Sep 2024",
         "endDate": "present",
         "responsibilities": [
-            "Prototyping and developing an internal web application using Angular and TypeScript, with robust API endpoints harnessing C#, ASP.NET Core, and SQL",
+            "Developing an internal web application using Angular and TypeScript, with robust API endpoints harnessing C#, ASP.NET Core, and SQL",
             "Collaborating with cross-functional teams to meet release deadlines using Agile methodologies",
             "Applying object-oriented design principles to create high quality code"
         ]
