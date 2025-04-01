@@ -3,8 +3,15 @@ import "./aboutme.css"
 const AboutMe = () => {
     return (
         <div className="aboutme">
-            <div className="pfp-container">
-                <img className="pfp" height="1410" width="940" src="images/me.png"/>
+            <div className="landing">
+                <h2>Hi, I&apos;m <span className="name">Gabriel</span></h2>
+                <h1 className="title">Software Developer</h1>
+                <i>and 4th year Computer Science student at UBC</i>
+                <span className="location">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 297"><path d="M148.5,0C87.43,0,37.747,49.703,37.747,110.797c0,91.026,99.729,179.905,103.976,183.645c1.936,1.705,4.356,2.559,6.777,2.559c2.421,0,4.841-0.853,6.778-2.559c4.245-3.739,103.975-92.618,103.975-183.645C259.253,49.703,209.57,0,148.5,0z M148.5,79.693c16.964,0,30.765,13.953,30.765,31.104c0,17.151-13.801,31.104-30.765,31.104c-16.964,0-30.765-13.953-30.765-31.104C117.735,93.646,131.536,79.693,148.5,79.693z"/></svg>
+                    Vancouver, British Colombia
+                </span>
+                <p>I&apos;m interested full-stack development and machine learning. I enjoy  going on walks and exploring new areas of tech.</p>
                 <div className="links">
                     <a href="/GabrielMM-CV.pdf" download="GabrielMM-CV.pdf">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M12 18v-6"></path><path d="m9 15 3 3 3-3"></path></svg>
@@ -21,8 +28,8 @@ const AboutMe = () => {
                     </a>
                 </div>
             </div>
-            <div className="aboutme-text">
-                <h2>About Me</h2>
+            <div className="pfp-container">
+                <img className="pfp" height="1410" width="940" src="images/me.png"/>
             </div>
         </div>
     )
