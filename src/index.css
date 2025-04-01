@@ -1,7 +1,7 @@
 :root {
   --base: #d0f0c0;
   --secondary: #fbffe4;
-  --prog-bg: #e2e8f0;
+  --proj-bg: #e2e8f0;
   --proj-tech: var(--base);
   --text: black;
   --text-alt: rgb(89, 89, 89);
