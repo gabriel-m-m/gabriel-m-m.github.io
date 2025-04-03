@@ -4,7 +4,7 @@ import "./intro.css"
 
 const Intro = () => {
     return (
-        <section className="intro">
+        <section id="home" className="intro">
             <AboutMe />
             <Skills />
         </section>

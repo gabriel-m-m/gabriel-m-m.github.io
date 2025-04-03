@@ -2,7 +2,7 @@ import "./education.css"
 
 const Education = () => {
     return (
-        <section className="edu-section">
+        <section id="education" className="edu-section">
             <h2 className="sectionheading">Education</h2>
             <div className="edu">
                 {/* <div className="UBCsidebar">

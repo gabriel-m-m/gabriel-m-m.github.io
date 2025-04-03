@@ -1,4 +1,4 @@
-import Header from "./components/Header/Header"
+import Navbar from "./components/Navbar/Navbar"
 import Intro from "./components/Intro/Intro"
 import ProjectList from "./components/ProjectList/ProjectList"
 import ExperienceList from "./components/ExperienceList/ExperienceList"
@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer"
 const App = () => {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Intro />
       <ProjectList />
       <ExperienceList />

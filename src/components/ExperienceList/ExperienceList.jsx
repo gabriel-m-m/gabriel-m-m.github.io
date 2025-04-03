@@ -4,7 +4,7 @@ import "./experiencelist.css"
 
 const ExperienceList = () => {
     return (
-        <section className="exp-section">
+        <section id="experience" className="exp-section">
             <h2 className="sectionheading">Experience</h2>
             <div className="exp-list">
                 {experiences.map(experience => 

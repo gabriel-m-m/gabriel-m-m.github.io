@@ -1,0 +1,50 @@
+nav {
+  height: 4em;
+  background-color: var(--base);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  transition: box-shadow 0.3s;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+@media (max-width: 420px) {
+  nav a {
+    font-size: 0.9em;
+    padding: 3px 6px;
+  } 
+  nav .container {
+    gap: 0px;
+  }
+}
+
+nav a:hover {
+  border: 1px solid var(--border);
+  box-shadow: 5px 5px var(--shadow);
+}
+
+nav .icon-placeholder {
+  margin-right: auto;
+  height: 24px;
+  width: 24px;
+  background-color: black;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: min(92%, 42rem);
+  height: 100%;
+  gap: 4px;
+}
+
