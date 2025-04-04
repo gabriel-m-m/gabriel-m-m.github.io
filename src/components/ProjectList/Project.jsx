@@ -5,7 +5,7 @@ const Project = ({ info }) => {
         <div className="proj">
             {info.thumbnail ? 
                 <div className="thumbnailcontainer">
-                    <img height={info.thHeight} width={info.thWidth} className="thumbnail" src={info.thumbnail}/>
+                    <img alt={info.title} height={info.thHeight} width={info.thWidth} className="thumbnail" src={info.thumbnail}/>
                 </div> : null}
             <h3 className="projecttitle">{info.title}</h3>
             <p>{info.description}</p>

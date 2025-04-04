@@ -8,7 +8,7 @@ const Education = () => {
                 {/* <div className="UBCsidebar">
                     <div className="UBCline"></div> */}
                     <div className="UBCcontainer">
-                        <img height="2400" width="2400" className="UBClogo" src="images/UBC_Logo.png" />
+                        <img height="2400" width="2400" className="UBClogo" alt="UBC logo" src="images/UBC_Logo.png" />
                     </div>
                
                 <div className="edu-text">
