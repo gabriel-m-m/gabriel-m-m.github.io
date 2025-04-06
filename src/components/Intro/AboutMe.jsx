@@ -29,7 +29,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="pfp-container">
-                <img alt="me" className="pfp" height="1410" width="940" src="images/me.png"/>
+                <img alt="me" className="pfp" height="640" width="427" src="images/me.png"/>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ const Experience = ({ info }) => {
     return (
         <div className="exp">
             <div className="exp-header">
-                <div className="logocontainer">{info.logo ? <img alt={info.company + " logo"} className="logo" src={info.logo}/> : null}</div>
+                <div className="logocontainer">{info.logo ? <img height="227" width="227" alt={info.company + " logo"} className="logo" src={info.logo}/> : null}</div>
                 <div>
                     <h3>{info.title}</h3>
                     <h4>{info.company}</h4>

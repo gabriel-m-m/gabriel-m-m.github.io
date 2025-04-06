@@ -5,12 +5,9 @@ const Education = () => {
         <section id="education" className="edu-section">
             <h2 className="sectionheading">Education</h2>
             <div className="edu">
-                {/* <div className="UBCsidebar">
-                    <div className="UBCline"></div> */}
-                    <div className="UBCcontainer">
-                        <img height="2400" width="2400" className="UBClogo" alt="UBC logo" src="images/UBC_Logo.png" />
-                    </div>
-               
+                <div className="UBCcontainer">
+                    <img height="320" width="320" className="UBClogo" alt="UBC logo" src="images/UBC_Logo.png" />
+                </div>
                 <div className="edu-text">
                     <h3>Bachelor of Science, Computer Science</h3>
                     <h4>University of British Columbia</h4>
