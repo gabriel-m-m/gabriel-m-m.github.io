@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-links">
-                <div className="footer-line"></div>
+                <div className="footer-line-right animate"></div>
                 <a aria-label="My email" href="mailto:gabrielmm.00@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="2 2 20 20" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                 </a>
@@ -14,9 +14,9 @@ const Footer = () => {
                 <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/gabriel-moosmann-mendez/">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg>
                 </a>
-                <div className="footer-line"></div>
+                <div className="footer-line-left animate"></div>
             </div>
-            <span className="note">Created by Gabriel Moosmann Mendez</span>
+            <span className="note animate">Created by Gabriel Moosmann Mendez</span>
         </footer>
     )
 }

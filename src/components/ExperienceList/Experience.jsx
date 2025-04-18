@@ -2,7 +2,7 @@ import "./experience.css"
 
 const Experience = ({ info }) => {
     return (
-        <div className="exp">
+        <div className="exp animate">
             <div className="exp-header">
                 <div className="logocontainer">{info.logo ? <img height="227" width="227" alt={info.company + " logo"} className="logo" src={info.logo}/> : null}</div>
                 <div>

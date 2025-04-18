@@ -1,10 +1,14 @@
 :root {
-  --base: #d0f0c0;
-  --secondary: #fbffe4;
+  /* --base: rgb(203, 236, 194); */
+  --base: #fefae0;
+  --secondary: #fefae0;
   --proj-bg: #e2e8f0;
-  --proj-tech: var(--base);
+  --tech-r: #ffadad;
+  --tech-g: #b9fbc0;
+  --tech-b: #bbdef0;
+  --tech-y: #f9ffb5;
   --text: black;
-  --text-alt: rgb(89, 89, 89);
+  --text-alt: #595959;
   --border: black;
   --shadow: black;
   scroll-behavior: smooth;
@@ -34,4 +38,61 @@ body {
 
 p, h3, h4 {
   margin: 0;
+}
+
+@keyframes growX {
+  from {
+    transform: scaleX(0);
+  } to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes appearDown {
+  from {
+    opacity: 0%;
+    transform: translateY(-100%);
+  } to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearUp {
+  from {
+    opacity: 0%;
+    transform: translateY(20%);
+  } to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearRight {
+  from {
+    opacity: 0%;
+    transform: translateX(-10%);
+  } to {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  } to {
+    opacity: 100%;
+  }
+}
+
+@keyframes shadowFlare {
+  45% {
+    box-shadow: 6px 6px var(--shadow);
+    transform: translate(-2px, -2px);
+  }
+  55% {
+    box-shadow: 6px 6px var(--shadow);
+    transform: translate(-2px, -2px);
+  }
 }

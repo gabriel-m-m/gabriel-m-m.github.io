@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <section id="education" className="edu-section">
             <h2 className="sectionheading">Education</h2>
-            <div className="edu">
+            <div className="edu animate">
                 <div className="UBCcontainer">
                     <img height="320" width="320" className="UBClogo" alt="UBC logo" src="images/UBC_Logo.png" />
                 </div>

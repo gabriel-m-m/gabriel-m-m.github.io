@@ -4,8 +4,11 @@
   flex-shrink: 1;
   align-items: flex-start;
   width: min(97%, 60rem);
-  padding-bottom: 1.5rem;
   margin-top: 0.75rem;
+}
+
+.exp.appear {
+  animation: appearRight 0.7s ease-out both 0.2s;
 }
 
 .exp ul {

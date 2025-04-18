@@ -7,6 +7,11 @@
   border: 1px solid var(--border);
   border-radius: 20px;
   box-shadow: 4px 4px var(--shadow);
+  transition: all 0.4s ease-in-out;
+}
+
+.proj:hover {
+  transform: translateY(-3px);
 }
 
 .proj a {
@@ -60,7 +65,6 @@
 }
 
 .proj .technology {
-  background-color: var(--proj-tech);
   border-radius: 4px;
   padding: 2px 5px;
   border: 1px solid var(--border);
@@ -71,4 +75,20 @@
   display: flex;
   align-items: flex-end;
   margin-top: auto;
+}
+
+.technology:nth-child(4n) {
+  background-color: var(--tech-r);
+}
+.technology:nth-child(4n + 1) {
+  background-color: var(--tech-g);
+}
+.technology:nth-child(4n + 2) {
+  background-color: var(--tech-b);
+}
+.technology:nth-child(4n + 3) {
+  background-color: var(--tech-y);
+}
+.proj .technology:nth-child(5) {
+  background-color: var(--tech-y);
 }

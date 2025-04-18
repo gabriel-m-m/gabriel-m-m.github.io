@@ -8,7 +8,8 @@ const experiences = [
         "responsibilities": [
             "Developing an internal web application using Angular and TypeScript, with robust API endpoints harnessing C#, ASP.NET Core, and SQL",
             "Collaborating with cross-functional teams to meet release deadlines using Agile methodologies",
-            "Applying object-oriented design principles to create high quality code"
+            "Applying object-oriented design principles to create high quality code",
+            "Performing regression testing and porting changes across multiple release versions"
         ]
     },
     {

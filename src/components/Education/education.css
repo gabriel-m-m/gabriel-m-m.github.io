@@ -7,6 +7,10 @@
   align-self: center;
 }
 
+.edu.appear {
+  animation: appearUp 0.7s ease-out both 0.3s;
+}
+
 .edu-text i {
   font-size: 0.85em;
 }

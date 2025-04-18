@@ -5,6 +5,11 @@
     width: min(92%, 40rem)
 }
 
+.skills h2 {
+    margin: 0;
+    font-size: 1.25em;
+}
+
 .skills .technologies {
     display: flex;
     align-items: flex-end;
@@ -27,4 +32,3 @@
     margin-top: 1rem;
     text-align : center;
 }
-
