@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <nav style={ window.scrollY > 3 ? { top: hide ? '-4rem' : '0'} : {}} >
             <div id="navbar" className="container">
-                <div className="icon-placeholder"></div>
+                <div className="icon-placeholder animate"></div>
                 <a href="#home">home</a>
                 <a href="#projects">projects</a>
                 <a href="#experience">experience</a>

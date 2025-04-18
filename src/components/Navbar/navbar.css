@@ -53,6 +53,20 @@ nav .icon-placeholder {
   background-color: black;
 }
 
+nav .icon-placeholder.appear {
+  animation: appearRightIcon 0.7s ease-out both;
+}
+
+@keyframes appearRightIcon {
+  from {
+    opacity: 0%;
+    transform: translateX(-200%);
+  } to {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
 nav .container {
   display: flex;
   align-items: center;
