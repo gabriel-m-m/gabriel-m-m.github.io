@@ -22,10 +22,16 @@ footer span {
   width: 100%;
 }
 
-footer a {
+footer svg {
   height: 1.25rem;
   width: 1.25rem;
   color: var(--text);
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.3rem;
   border-radius: 4px;
   border: 1px solid var(--border);
@@ -52,9 +58,4 @@ footer a {
 
 .note.appear {
   animation: appearDown 0.5s ease-out both 0.9s;
-}
-
-
-@media(prefers-reduced-motion) {
-  
 }
