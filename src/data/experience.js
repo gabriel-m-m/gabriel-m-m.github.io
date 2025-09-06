@@ -1,10 +1,21 @@
 const experiences = [
     {
+        "company": "Geotab",
+        "logo": "images/Geotab_Logo.png",
+        "title": "Software Developer Intern",
+        "startDate": "May 2025",
+        "endDate": "present",
+        "responsibilities": [
+            "Migrating legacy application areas to React and applying modern software design principles",
+            "Delivering efficient, well-tested solutions ahead of Agile sprint deadlines"
+        ]
+    },
+    {
         "company": "Optum",
         "logo": "images/Optum_Logo.png",
         "title": "Software Development & QC Engineer",
         "startDate": "Sep 2024",
-        "endDate": "present",
+        "endDate": "April 2025",
         "responsibilities": [
             "Developing an internal web application using Angular and TypeScript, with robust API endpoints harnessing C#, ASP.NET Core, and SQL",
             "Collaborating with cross-functional teams to meet release deadlines using Agile methodologies",

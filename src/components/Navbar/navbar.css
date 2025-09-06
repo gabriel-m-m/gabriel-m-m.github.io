@@ -46,14 +46,13 @@ nav a:nth-child(5):hover {
 }
 
 
-nav .icon-placeholder {
+nav .icon {
   margin-right: auto;
-  height: 24px;
-  width: 24px;
-  background-color: black;
+  height: 28px;
+  width: 28px;
 }
 
-nav .icon-placeholder.appear {
+nav .icon.appear {
   animation: appearRightIcon 0.7s ease-out both;
 }
 
