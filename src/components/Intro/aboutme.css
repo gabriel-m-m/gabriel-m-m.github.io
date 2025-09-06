@@ -161,12 +161,6 @@
     animation-delay: 2.2s;
 }
 
-.aboutme a:hover {
-    box-shadow: 6px 6px var(--shadow);
-    transform: translate(-2px, -2px);
-}
-  
-
 .aboutme .links {
     display: flex;
     gap: 0.5rem;

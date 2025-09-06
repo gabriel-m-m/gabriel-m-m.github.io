@@ -61,7 +61,7 @@ p, h3, h4 {
 @keyframes appearUp {
   from {
     opacity: 0%;
-    transform: translateY(20%);
+    transform: translateY(15%);
   } to {
     opacity: 100%;
     transform: translateY(0);
@@ -71,7 +71,7 @@ p, h3, h4 {
 @keyframes appearRight {
   from {
     opacity: 0%;
-    transform: translateX(-10%);
+    transform: translateX(-5%);
   } to {
     opacity: 100%;
     transform: translateX(0);
@@ -95,4 +95,9 @@ p, h3, h4 {
     box-shadow: 6px 6px var(--shadow);
     transform: translate(-2px, -2px);
   }
+}
+
+.link-hover:hover {
+  box-shadow: 5px 5px var(--shadow);
+  transform: translate(-1px, -1px);
 }

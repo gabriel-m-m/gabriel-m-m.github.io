@@ -11,7 +11,7 @@
 }
 
 .proj:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .proj a {
@@ -27,11 +27,6 @@
   box-shadow: 2px 2px var(--shadow);
   transition: all 0.2s;
   font-size: 0.8em;
-}
-
-.proj a:hover {
-  box-shadow: 6px 6px var(--shadow);
-  transform: translate(-2px, -2px);
 }
 
 .proj svg {
